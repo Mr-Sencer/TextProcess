@@ -463,7 +463,8 @@ namespace TextProcessingLib
                 {
                     IsFind = true;
                     find = code[i];
-                }
+                    break;
+                 }
             }
 
             return IsFind;
